@@ -1,0 +1,55 @@
+import type { Metadata } from 'next';
+import { Inter, Noto_Sans_SC } from 'next/font/google';
+import '../styles/main.scss';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import {siteConfig} from "@/config/site";
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-main' });
+const notoSansSC = Noto_Sans_SC({ subsets: ['latin'], variable: '--font-cn', weight: ['400', '500', '700'] });
+
+export const metadata: Metadata = {
+    title: siteConfig.title,
+    description: siteConfig.description,
+    metadataBase: new URL(siteConfig.siteUrl),
+    alternates: {
+        types: {
+            'application/rss+xml': [
+                { url: '/rss.xml', title: 'RSS Feed' },
+            ],
+        },
+    },
+};
+
+export default function RootLayout({
+                                       children,
+                                   }: {
+    children: React.ReactNode;
+}) {
+    return (
+        <html lang="en" className={`${inter.variable} ${notoSansSC.variable}`}>
+        <head>
+            <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+                integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV"
+                crossOrigin="anonymous"
+            />
+            <style>
+                @import url(https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+SC:wght@200..900&display=swap);
+            </style>
+        </head>
+        <body>
+        <div className="app-container">
+            <Navbar />
+            <main className="main-content">
+                {children}
+            </main>
+            <Footer />
+        </div>
+        </body>
+        {/*<SpeedInsights/> //Vercel SpeedInsights*/}
+        </html>
+    );
+}
