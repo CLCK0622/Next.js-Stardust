@@ -2,7 +2,7 @@
 
 <img width="2740" height="1702" alt="www clckkkkk site_1" src="https://github.com/user-attachments/assets/e8f00d6a-07a4-4700-82f5-7245e8d390c0" />
 
-> A minimal, high-performance personal page and blog theme built with **Next.js App Router** and **Sass**.
+> An elegant, high-performance personal page and blog theme built with **Next.js App Router** and **Sass**.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCLCK0622%2FNext.js-Stardust&env=UNSPLASH_ACCESS_KEY,UNSPLASH_COLLECTION_ID&demo-title=Next.js%20Stardust&demo-description=An%20elegant%2C%20high-performance%20personal%20page%20and%20blog%20theme%20built%20with%20Next.js%20App%20Router%20and%20Sass.&demo-url=https%3A%2F%2Fwww.clckkkkk.site%2F&demo-image=https%3A%2F%2Fgithub.com%2Fuser-attachments%2Fassets%2Fe8f00d6a-07a4-4700-82f5-7245e8d390c0)
 
