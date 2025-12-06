@@ -4,6 +4,8 @@
 
 > A minimal, high-performance personal page and blog theme built with **Next.js App Router** and **Sass**.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCLCK0622%2FNext.js-Stardust&env=UNSPLASH_ACCESS_KEY,UNSPLASH_COLLECTION_ID&demo-title=Next.js%20Stardust&demo-description=An%20elegant%2C%20high-performance%20personal%20page%20and%20blog%20theme%20built%20with%20Next.js%20App%20Router%20and%20Sass.&demo-url=https%3A%2F%2Fwww.clckkkkk.site%2F&demo-image=https%3A%2F%2Fgithub.com%2Fuser-attachments%2Fassets%2Fe8f00d6a-07a4-4700-82f5-7245e8d390c0)
+
 ## ✨ Features
 
 Stardust is not just another blog template. It's focusing on performance and aesthetic details.
@@ -25,8 +27,6 @@ Stardust is not just another blog template. It's focusing on performance and aes
 * **Mathematics**: Full LaTeX support via `rehype-katex` for rendering complex equations ($E=mc^2$).
 * **GFM Support**: GitHub Flavored Markdown support (Tables, Task lists, Strikethrough).
 * **Comments**: Integrated **Giscus** (GitHub Discussions) for a lightweight, database-free comment system.
-
----
 
 ## 🚀 Getting Started
 
@@ -65,7 +65,9 @@ Stardust is not just another blog template. It's focusing on performance and aes
     ```
     Open [http://localhost:3000](http://localhost:3000) to view your site.
 
----
+5. **Deploy Online**
+   
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCLCK0622%2FNext.js-Stardust&env=UNSPLASH_ACCESS_KEY,UNSPLASH_COLLECTION_ID&demo-title=Next.js%20Stardust&demo-description=An%20elegant%2C%20high-performance%20personal%20page%20and%20blog%20theme%20built%20with%20Next.js%20App%20Router%20and%20Sass.&demo-url=https%3A%2F%2Fwww.clckkkkk.site%2F&demo-image=https%3A%2F%2Fgithub.com%2Fuser-attachments%2Fassets%2Fe8f00d6a-07a4-4700-82f5-7245e8d390c0)
 
 ## ⚙️ Configuration
 
@@ -112,7 +114,6 @@ image: "[https://images.unsplash.com/](https://images.unsplash.com/...)"
 ---
 ```
 
------
 
 ## 🛠️ Tech Stack
 
@@ -123,7 +124,6 @@ image: "[https://images.unsplash.com/](https://images.unsplash.com/...)"
 * **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
 * **Deployment**: [Vercel](https://vercel.com)
 
------
 
 ## 📄 License
 
