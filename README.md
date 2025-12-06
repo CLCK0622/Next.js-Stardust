@@ -1,12 +1,8 @@
 # Next.js Stardust Theme
 
-![Stardust Banner](https://images.unsplash.com/photo-1614850523060-8da1d56ae167?q=80&w=2670&auto=format&fit=crop)
+<img width="2740" height="1702" alt="www clckkkkk site_1" src="https://github.com/user-attachments/assets/e8f00d6a-07a4-4700-82f5-7245e8d390c0" />
 
 > A minimal, high-performance personal page and blog theme built with **Next.js App Router** and **Sass**.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
-[![Sass](https://img.shields.io/badge/Style-Sass-pink)](https://sass-lang.com/)
 
 ## ✨ Features
 
@@ -103,6 +99,7 @@ Currently, projects are defined in the `PROJECTS_CONFIG` array within the Portfo
 ### 3\. Writing Posts
 
 Add your Markdown files to `src/posts/`.
+
 Frontmatter format:
 
 ```yaml
